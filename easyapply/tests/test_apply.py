@@ -1,0 +1,1 @@
+from easyapply import apply
