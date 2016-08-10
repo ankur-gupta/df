@@ -18,5 +18,5 @@ Demo
 
 Here is a quick demo of how this package works::
 
-    >>> from easyapply import apply
+    >>> from easyapply import pdapply
 
