@@ -1,11 +1,22 @@
 from setuptools import setup
 
-setup(name='easyapply',
+
+def readme():
+    with open('README.rst') as f:
+        return f.read()
+
+
+setup(name='df',
       version='0.1',
-      description='An easier apply function for pandas groupby operation.',
-      url='http://github.com/ankur-gupta/easyapply',
+      description='An easier-to-use implementation of dataframes.',
+      long_description=readme(),
+      url='http://github.com/ankur-gupta/df',
       author='Ankur Gupta, Bryson Hagerman',
       author_email='ankur@perfectlyrandom.org, brysonova@gmail.com',
+      keywords='dataframes pandas groupby apply custom function',
       license='MIT',
-      packages=['easyapply'],
-      zip_safe=False)
+      packages=['df'],
+      zip_safe=False,
+      install_requires=[
+          'pandas',
+      ])
