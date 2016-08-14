@@ -7,7 +7,7 @@ def readme():
 
 
 setup(name='simpledf',
-      version='0.1',
+      version='0.12',
       description='A simple, easier-to-use implementation of dataframes.',
       long_description=readme(),
       url='http://github.com/ankur-gupta/simpledf',
@@ -19,4 +19,10 @@ setup(name='simpledf',
       zip_safe=False,
       install_requires=[
           'pandas',
-      ])
+      ],
+      classifiers=[
+          'Development Status :: 3 - Alpha',
+          'Programming Language :: Python :: 2.7'
+      ],
+      test_suite='nose.collector',
+      tests_require=['nose'])
