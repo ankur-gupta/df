@@ -3,7 +3,7 @@ simpledf
 
 An easier to use apply function for pandas groupby operations involving a
 custom function. See
-`Jupyter notebook example <https://github.com/ankur-gupta/countop/blob/master/simpledf/examples/apply_example.ipynb>`_
+`Jupyter notebook example <https://github.com/ankur-gupta/simpledf/blob/master/simpledf/examples/apply_example.ipynb>`_
 that verifies the complexity of selection sort.
 
 ============
