@@ -6,16 +6,16 @@ def readme():
         return f.read()
 
 
-setup(name='df',
+setup(name='simpledf',
       version='0.1',
-      description='An easier-to-use implementation of dataframes.',
+      description='A simple, easier-to-use implementation of dataframes.',
       long_description=readme(),
-      url='http://github.com/ankur-gupta/df',
+      url='http://github.com/ankur-gupta/simpledf',
       author='Ankur Gupta, Bryson Hagerman',
       author_email='ankur@perfectlyrandom.org, brysonova@gmail.com',
       keywords='dataframes pandas groupby apply custom function',
       license='MIT',
-      packages=['df'],
+      packages=['simpledf'],
       zip_safe=False,
       install_requires=[
           'pandas',
