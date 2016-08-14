@@ -12,3 +12,9 @@
 
 # ipynb checkpoints
 .ipynb_checkpoints/
+
+# Wheel files
+*.whl
+
+# sdist tar files
+*.tar.gz
